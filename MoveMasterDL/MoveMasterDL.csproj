@@ -1,14 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="ModelsEF\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
