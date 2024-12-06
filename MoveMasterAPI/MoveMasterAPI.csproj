@@ -12,7 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTO%27S\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoveMasterBL\MoveMasterBL.csproj" />
+    <ProjectReference Include="..\MoveMasterDL\MoveMasterDL.csproj" />
   </ItemGroup>
 
 </Project>
